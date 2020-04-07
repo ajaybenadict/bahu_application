@@ -1,0 +1,59 @@
+.backgroundbahu {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(48, 70, 89, 0.8), rgba(48, 70, 89, 0.8)),
+    url(../images/og1.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+.arulbahu {
+  position: absolute;
+  left: 45%;
+  top: 250px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+  height: auto;
+  width: 200px;
+  height: 200px;
+  background: url(../images/bahu.jpg);
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+.div {
+  color: white;
+  position: relative;
+  left: 15%;
+  top: 200px;
+}
+.div h1 {
+  position: absolute;
+  left: 32%;
+  top: 0;
+}
+
+.div h3 {
+  position: absolute;
+  left: 33%;
+  top: 265px;
+}
+.div h4 {
+  position: absolute;
+  left: 32%;
+  top: 290px;
+}
+@media screen and (max-width: 768px) {
+  .arulbahu {
+    left: 30%;
+  }
+  .div {
+    left: 8%;
+  }
+  .div h4 {
+    left: 29%;
+  }
+}

@@ -1,0 +1,175 @@
+.memberbox {
+  padding: 0;
+  position: absolute;
+
+  height: 125vh;
+  background: linear-gradient(rgba(48, 70, 89, 0.9), rgba(48, 70, 89, 0.3)),
+    url(../images/details.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+.container {
+  margin-top: 10%;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box {
+  position: relative;
+  width: 20%;
+  min-width: 250px;
+  height: 250px;
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.box:hover {
+  cursor: pointer;
+}
+.imgBox1 {
+  height: 250px;
+  background: url("../images/ajay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox1 {
+  transform: scale(1.2);
+}
+.details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  transform: scaleY(0);
+  transition: transform 0.5s;
+}
+.box:hover .details {
+  transform: scaleX(1);
+}
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+.heading {
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  font-size: 20px;
+  color: bisque;
+}
+.imgBox2 {
+  position: relative;
+  height: 250px;
+  background: url("../images/raghul.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox2 {
+  transform: scale(1.2);
+}
+.imgBox3 {
+  position: relative;
+  height: 250px;
+  background: url("../images/mass.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox3 {
+  transform: scale(1.2);
+}
+.imgBox4 {
+  position: relative;
+  height: 250px;
+  background: url("../images/joe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox4 {
+  transform: scale(1.2);
+}
+.imgBox5 {
+  position: relative;
+  height: 250px;
+  background: url("../images/jude.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox5 {
+  transform: scale(1.2);
+}
+.imgBox6 {
+  position: relative;
+  height: 250px;
+  background: url("../images/roy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox6 {
+  transform: scale(1.2);
+}
+.imgBox7 {
+  position: relative;
+  height: 250px;
+  background: url("../images/pandi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox7 {
+  transform: scale(1.2);
+}
+.imgBox8 {
+  position: relative;
+  height: 250px;
+  background: url("../images/vedha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox8 {
+  transform: scale(1.2);
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+  .memberbox {
+    height: auto;
+    background-size: cover;
+
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin-left: 20%;
+    margin-top: 15%;
+  }
+  .memberbox {
+    width: 100%;
+    height: auto;
+
+    background-size: cover;
+    background-repeat: repeat;
+
+    background-attachment: fixed;
+  }
+}

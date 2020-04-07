@@ -1,0 +1,15 @@
+.Content {
+  margin-left: 25%;
+
+  width: 25%;
+  background: black;
+  color: white;
+  padding: 1.5rem;
+  animation: homeStyle 1s ease;
+  height: 100%;
+}
+@media screen and (max-width: 765px) {
+  .Content {
+    height: 150vh;
+  }
+}

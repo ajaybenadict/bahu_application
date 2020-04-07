@@ -1,0 +1,161 @@
+.back {
+  top: 70px;
+  width: 100%;
+  position: relative;
+}
+.loginimg {
+  height: 100vh;
+  background: url(../images/login.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 200;
+}
+.beware {
+  width: 300px;
+  height: 250px;
+}
+.beware {
+  max-width: 350px;
+
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  background: red;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.beware h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.maimforms {
+  top: 70px;
+  width: 100%;
+  position: relative;
+}
+.register {
+  width: 30%;
+  position: absolute;
+  margin: 10px;
+  margin-left: 30%;
+  padding-top: 20px;
+  background: none;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 80px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+  background: blanchedalmond;
+}
+
+.register:hover {
+  color: white;
+  background: red;
+  border: 1px solid red;
+}
+.register-box {
+  width: 80%;
+  max-width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  background: black;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  padding: 20px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.register-box h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.forms {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+  align-items: center;
+  margin-left: 30px;
+}
+.forms input {
+  width: 80%;
+  height: 80%;
+  color: white;
+  padding-top: 20px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.forms label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  pointer-events: none;
+  border-bottom: 1px solid white;
+}
+.forms label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid red;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.forms input:focus + .label-name .content-name,
+.forms input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: red;
+}
+.forms input:focus + .label-name::after,
+.form input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+@media screen and (max-width: 900px) {
+  .register-box {
+    top: 600px;
+    left: 50%;
+  }
+  .beware {
+    top: 200px;
+    left: 50%;
+  }
+  .loginimg {
+    height: 150vh;
+  }
+}
+
+.small {
+  position: absolute;
+  top: 80%;
+  left: 32%;
+  color: white;
+  text-decoration: none;
+}
+.small:hover {
+  color: red;
+}

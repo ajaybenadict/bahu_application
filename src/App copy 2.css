@@ -1,0 +1,561 @@
+:root {
+  --dark80: rgba(48, 70, 89, 0.8);
+  --dark60: rgba(48, 70, 89, 0.6);
+}
+
+.App-header {
+  position: sticky;
+  top: 0%;
+  margin-top: 0;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.8);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+.bahu {
+  display: flex;
+  margin-right: auto;
+  padding-left: 10px;
+}
+.babu {
+  display: flex;
+  margin: auto;
+  color: whitesmoke;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.arulbahu {
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+  height: auto;
+  width: 200px;
+  height: 200px;
+  background: url(./images/bahu.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.link-style {
+  color: whitesmoke;
+  margin-left: 10px;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 30px 10px;
+  transition: 0.4s;
+}
+.link-style:hover,
+.babu:hover {
+  color: aqua;
+}
+.link-style:active {
+  color: red;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
+body {
+  background: linear-gradient(brown, var(--dark60)), url(./images/og1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  justify-content: space-around;
+}
+.div {
+  width: 100%;
+  position: relative;
+  height: 100px;
+  padding-top: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.form {
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+.form input {
+  color: aquamarine;
+  border-width: 0;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  border-radius: none;
+  background: transparent;
+  outline: none;
+}
+
+.arul {
+  height: 100px;
+  width: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+
+  padding: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.arulback {
+  background: linear-gradient(brown, var(--dark60)), url(./images/og1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form button {
+  background: none;
+  border-width: 0;
+  padding: 10px 20px;
+  margin: 10px;
+  margin-top: -10px;
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 80px;
+  transition: 0.3s;
+}
+.continue,
+.back {
+  color: white;
+}
+
+.continue:hover,
+.back:hover {
+  color: black;
+  background: white;
+}
+
+.img {
+  height: 400px;
+  width: 700px;
+  display: flex;
+  background: url(./og.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+  margin-right: 10px;
+  border: 1px solid white;
+  animation: slide 20s linear infinite;
+}
+@keyframes slide {
+  25% {
+    background: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  50% {
+    background: url(./images/mainBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  75% {
+    background: url(./images/og1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background: url(./og.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.success {
+  padding-top: 80px;
+  color: pink;
+  align-items: center;
+  text-align: center;
+  color: red;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.user {
+  text-align: center;
+  padding: 15px;
+  height: auto;
+  justify-content: space-evenly;
+}
+.container {
+  width: 1200px;
+  margin: 10px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box {
+  position: relative;
+  width: 250px;
+  height: 250px;
+
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.box:hover {
+  cursor: pointer;
+}
+.imgBox1 {
+  height: 250px;
+  background: url("./images/ajay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox1 {
+  transform: scale(1.2);
+}
+.details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  transform: scaleY(0);
+  transition: transform 0.5s;
+}
+.box:hover .details {
+  transform: scaleX(1);
+}
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+.heading {
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  font-size: 20px;
+  color: bisque;
+}
+.imgBox2 {
+  position: relative;
+  height: 250px;
+  background: url("./images/raghul.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox2 {
+  transform: scale(1.2);
+}
+.imgBox3 {
+  position: relative;
+  height: 250px;
+  background: url("./images/mass.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox3 {
+  transform: scale(1.2);
+}
+.imgBox4 {
+  position: relative;
+  height: 250px;
+  background: url("./images/joe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox4 {
+  transform: scale(1.2);
+}
+.imgBox5 {
+  position: relative;
+  height: 250px;
+  background: url("./images/jude.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox5 {
+  transform: scale(1.2);
+}
+.imgBox6 {
+  position: relative;
+  height: 250px;
+  background: url("./images/roy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox6 {
+  transform: scale(1.2);
+}
+.imgBox7 {
+  position: relative;
+  height: 250px;
+  background: url("./images/pandi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox7 {
+  transform: scale(1.2);
+}
+.imgBox8 {
+  position: relative;
+  height: 250px;
+  background: url("./images/vedha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.box:hover .imgBox8 {
+  transform: scale(1.2);
+}
+.login {
+  background: none;
+  padding: 10px 20px;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid blue;
+  border-radius: 80px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: blue;
+}
+.login:hover {
+  color: black;
+  background: blanchedalmond;
+  border: 1px solid white;
+}
+.register {
+  width: 100px;
+  position: absolute;
+  margin: 10px;
+  margin-left: 130px;
+  padding-top: 20px;
+  background: none;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 80px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+  background: blanchedalmond;
+}
+
+.register:hover {
+  color: white;
+  background: red;
+  border: 1px solid red;
+}
+.register-box {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  background: black;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  padding: 20px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.register-box h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.forms {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+  align-items: center;
+  margin-left: 30px;
+}
+.forms input {
+  width: 80%;
+  height: 80%;
+  color: white;
+  padding-top: 20px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.forms label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  pointer-events: none;
+  border-bottom: 1px solid white;
+}
+.forms label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid red;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.forms input:focus + .label-name .content-name,
+.forms input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: red;
+}
+.forms input:focus + .label-name::after,
+.form input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+.small {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  margin-top: 100px;
+  margin-left: 10px;
+  transform: translate(-25%, -100%);
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.small:hover {
+  color: red;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: white;
+}
+.register-box1 {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  background: black;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  padding: 10px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.register-box1 h1 {
+  font-size: 30px;
+
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.loginback {
+  margin: 0;
+
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background: url(./images/login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logincontent {
+  margin: 10px;
+  color: white;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 20px;
+  position: absolute;
+  background: red;
+  text-align: justify;
+  width: 20%;
+  height: 40%;
+  left: 15%;
+  top: 25%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.logincontent h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.imgdetails {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background: url(./images/sugg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.memberbox {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background: url(./images/details.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contactbox {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background: linear-gradient(black, var(--dark60)), url(./images/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

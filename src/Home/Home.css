@@ -1,0 +1,36 @@
+.Homeimg {
+  position: relative;
+  margin-top: 50px;
+
+  background: url(../images/sugg2.jpg);
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+.HomeStyle {
+  margin-left: 10%;
+  height: 100%;
+  width: 25%;
+  background: black;
+  color: white;
+  padding: 1.5rem;
+  animation: homeStyle 1s ease-in-out;
+}
+@keyframes homeStyle {
+  from {
+    margin-top: -100;
+
+    transform: translateY(-100%);
+  }
+  to {
+    margin-top: 100;
+
+    transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .HomeStyle {
+    margin-left: 90px;
+  }
+}

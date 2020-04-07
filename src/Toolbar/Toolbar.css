@@ -1,0 +1,47 @@
+.toolbar {
+  width: 100%;
+  position: fixed;
+  background: #000000;
+  top: 0;
+  height: 72px;
+  z-index: 10;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.toolbar_navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.toolbar_logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.toolbar_logo {
+  margin-left: 20px;
+}
+.toolbar_navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.toolbar_navigation-items li {
+  padding: 0 1rem;
+}
+.toolbar_navigation-items a {
+  text-decoration: none;
+  color: white;
+}
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active {
+  color: tomato;
+}
+.spacer {
+  flex: 1;
+}
+@media screen and (max-width: 768px) {
+  .toolbar_navigation-items {
+    display: none;
+  }
+}

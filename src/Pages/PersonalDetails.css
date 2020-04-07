@@ -1,0 +1,179 @@
+.imgdetails {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/sugg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.register {
+  width: 30%;
+  position: absolute;
+  margin: 10px;
+  margin-left: 30%;
+  padding-top: 20px;
+  background: none;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 80px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+  background: blanchedalmond;
+}
+
+.register:hover {
+  color: white;
+  background: red;
+  border: 1px solid red;
+}
+.back1 {
+  width: 30%;
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 30%;
+  background: none;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 80px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+  background: blanchedalmond;
+}
+.back1:hover {
+  color: white;
+  background: red;
+  border: 1px solid red;
+}
+.imgdetails {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/sugg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Homeimg {
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  height: 150vh;
+  background: url(../images/sugg2.jpg);
+  background-size: cover;
+}
+.successsuggesstion {
+  position: absolute;
+  color: white;
+  top: 10%;
+  left: 45%;
+}
+.successsuggesstionlink {
+  color: white;
+  position: absolute;
+  left: 30%;
+  text-decoration: none;
+}
+.successsuggesstionlink:hover {
+  color: red;
+}
+
+.register-suggestion {
+  width: 80%;
+  max-width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 350px;
+  left: 80%;
+  background: black;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  padding: 20px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.register-suggestion h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.forms {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+  align-items: center;
+  margin-left: 30px;
+}
+.forms input {
+  width: 80%;
+  height: 80%;
+  color: white;
+  padding-top: 20px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.forms label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  pointer-events: none;
+  border-bottom: 1px solid white;
+}
+.forms label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid red;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.forms input:focus + .label-name .content-name,
+.forms input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: red;
+}
+.forms input:focus + .label-name::after,
+.form input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+@media screen and (max-width: 768px) {
+  .imgdetails {
+    height: 100vh;
+  }
+  .register-suggestion {
+    top: 350px;
+    left: 50%;
+  }
+  .successsuggesstion {
+    top: 20%;
+    left: 20%;
+    height: auto;
+  }
+}

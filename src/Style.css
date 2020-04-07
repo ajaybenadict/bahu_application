@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap");
+
+:root {
+  --accent: #ea918d;
+  --accentHover: #de8a86;
+  --dark: #304659;
+  --dark80: rgba(48, 70, 89, 0.8);
+  --dark60: rgba(48, 70, 89, 0.6);
+  --light: #F59FC;
+  --transition: all 0.3s ease 0s;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
+body {
+  background: linear-gradient(var(--dark60), var(--dark60)),
+    url(./images/og1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.continue,
+.back,
+.link-style {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--light);
+  text-decoration: none;
+  cursor: pointer;
+}
+main {
+  height: grid;
+  display: grid;
+}
