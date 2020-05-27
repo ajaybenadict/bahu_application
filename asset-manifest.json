@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bahu_application/static/css/main.510a7971.chunk.css",
+    "main.js": "/bahu_application/static/js/main.13ec2e50.chunk.js",
+    "main.js.map": "/bahu_application/static/js/main.13ec2e50.chunk.js.map",
+    "runtime-main.js": "/bahu_application/static/js/runtime-main.b12b3cce.js",
+    "runtime-main.js.map": "/bahu_application/static/js/runtime-main.b12b3cce.js.map",
+    "static/js/2.c581f591.chunk.js": "/bahu_application/static/js/2.c581f591.chunk.js",
+    "static/js/2.c581f591.chunk.js.map": "/bahu_application/static/js/2.c581f591.chunk.js.map",
+    "index.html": "/bahu_application/index.html",
+    "precache-manifest.b5c8a3bd864b8d650290a896f6670ece.js": "/bahu_application/precache-manifest.b5c8a3bd864b8d650290a896f6670ece.js",
+    "service-worker.js": "/bahu_application/service-worker.js",
+    "static/css/main.510a7971.chunk.css.map": "/bahu_application/static/css/main.510a7971.chunk.css.map",
+    "static/js/2.c581f591.chunk.js.LICENSE": "/bahu_application/static/js/2.c581f591.chunk.js.LICENSE",
+    "static/media/Members.css": "/bahu_application/static/media/vedha.4861c381.jpg",
+    "static/media/Arulbahu.css": "/bahu_application/static/media/og1.7ac9ef4b.jpg",
+    "static/media/Contact.css": "/bahu_application/static/media/contact.55ff59fb.jpg",
+    "static/media/Login.css": "/bahu_application/static/media/login.a7071ddc.jpg",
+    "static/media/Home.css": "/bahu_application/static/media/sugg2.1819daa1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b12b3cce.js",
+    "static/js/2.c581f591.chunk.js",
+    "static/css/main.510a7971.chunk.css",
+    "static/js/main.13ec2e50.chunk.js"
+  ]
+}
