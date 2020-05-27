@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bba7519587f85a4a3ae017729fef09fa",
+    "revision": "95851778a2c8dfb8679e60909de5b8d2",
     "url": "/bahu_application/index.html"
   },
   {
-    "revision": "b033e85c985a5d45aa4a",
+    "revision": "f8948dabe92950aa8c41",
     "url": "/bahu_application/static/css/main.510a7971.chunk.css"
   },
   {
-    "revision": "d6a0ac04925b14d6ed98",
-    "url": "/bahu_application/static/js/2.c581f591.chunk.js"
+    "revision": "4aacf01e9dbf67f821ad",
+    "url": "/bahu_application/static/js/2.7919c466.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/bahu_application/static/js/2.c581f591.chunk.js.LICENSE"
+    "url": "/bahu_application/static/js/2.7919c466.chunk.js.LICENSE"
   },
   {
-    "revision": "b033e85c985a5d45aa4a",
-    "url": "/bahu_application/static/js/main.13ec2e50.chunk.js"
+    "revision": "f8948dabe92950aa8c41",
+    "url": "/bahu_application/static/js/main.976ef88a.chunk.js"
   },
   {
     "revision": "d666ab57961e124b18ac",
